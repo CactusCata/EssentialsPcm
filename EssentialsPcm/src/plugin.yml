@@ -1,0 +1,80 @@
+main: com.gmail.cactuscata.essentials.Main
+version: 1.0.0
+author: CactusCata
+name: EssentialsPcm
+commands:
+    gm:
+        description: Permet de se mettre dans les differents modes de jeu
+        usage: /<command> [nombre]
+                
+    speed:
+        description: Permet de se donner plus de mouvement
+        usage: /<command> [nombre]
+        permission: essentials.speed
+        
+    setwarp:
+        description: Permet de creer un warp
+        usage: /<command>
+        permission: essentials.setwarp
+        
+    delwarp:
+        description: Permet de supprimer un warp
+        usage: /<command> [warp]
+        permission: essentials.delwarp
+        
+    warp:
+        descrpiton: Permet de se teleporter a un warp
+        usage: /<command> [warp]
+        permission: essentials.warp
+        
+    warps:
+        description: Permet de voir tout les warps
+        usage: /<command>
+        permission: essentials.warps
+        
+    cwarp:
+        description: Permet a la console de teleporter un joueur a un warp
+        usage: /<command> [joueur] [[warp]
+        permission: essentials.cwarp
+        
+    warpinfo:
+        description: Permet de voir les informations d'un warp
+        usage: /<command> [warp]
+        permission: essentials.warpinfo
+        
+    msg:
+        aliases: [m, w, tell]
+        description: Permet d'envoyer un message a un joueur
+        usage: /<command> [joueur] [message]
+        permission: essentials.msg
+    
+    r:
+        description: Permet de repondre a un joueur
+        usage: /<command>
+        permission: essentials.msg
+        
+    socialspy:
+        aliases: [spy]
+        description: Permet de voir les messages personnels des joueurs
+        usage: /<command>
+        permission: essentials.socialspy
+        
+    spylist:
+        description: Permet de voir tout les joueurs qui ont le socialspy active
+        usage: /<command>
+        permission: essentials.spylist
+        
+    vanish:
+        descrpition: Permet de se mettre en vanish
+        usage: /<command>
+        permission: essentials.vanish
+        
+    fly:
+        description: Permet de se mettre en fly mode
+        usage: /<command>
+        permission: essentials.fly
+        
+    heal:
+        description: Permet de se heal
+        usage: /<command>
+        permission: essentials.heal
